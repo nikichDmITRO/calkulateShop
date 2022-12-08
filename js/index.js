@@ -8,7 +8,10 @@ let data = document.querySelector(".data");
 
 
 let obj=[];
-obj=JSON.parse (localStorage.getItem ("object"));
+if(JSON.parse (localStorage.getItem ("object"))){
+  obj=JSON.parse (localStorage.getItem ("object"));
+}
+
 
 
 if (localStorage.getItem(obj)) {
@@ -22,6 +25,8 @@ console.log(obj)
 function sum(obj){
   let sum=0
   let arr=[]
+  console.log(obj)
+
   for(let i=0;i<obj.length;i++){
      arr.push(obj[i].cost)
   }
@@ -83,6 +88,8 @@ data.innerHTML = obj
   // } else {
   //   summ.innerHTML = `0 bun`;
   // }
+  inputElem.value=""
+  input.value=""
 });
 
 data.addEventListener("click", (event) => {
