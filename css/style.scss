@@ -1,33 +1,32 @@
-h1{
+h1 {
   font-size: 20px;
   margin: 10px 0 15px;
   padding: 0;
 }
-label{
+label {
   display: flex;
   justify-content: space-between;
-p{
-  padding: 0;
-  margin: 0;
-  width: 70px;
+  p {
+    padding: 0;
+    margin: 0;
+    width: 70px;
+  }
 }
+body {
+  background-color: rgba(0, 0, 0, 0.171);
 }
-body{
-    background-color: rgba(0, 0, 0, 0.171);
-}
-.container{
-    margin: 0 auto;
-    max-width: 400px;
-    
-    text-align: center;
-    font-size: 20px;
-    font-family: monospace;
-   
-}
-.inp-flex{
-    display: flex;
+.container {
+  margin: 0 auto;
+  max-width: 400px;
 
-    flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+}
+.inp-flex {
+  display: flex;
+
+  flex-direction: column;
 }
 .data {
   margin-top: 30px;
@@ -41,61 +40,58 @@ body{
     align-items: center;
     font-size: 16px;
 
-    .deleteBtn{
-        background-color: rgba(255, 0, 0, 0.555);
-        border: none;
-        color: white;
-        font-size: 15px;
-        border-radius: 5px;
-        width: 25%;
-        height: 30px;
+    .deleteBtn {
+      background-color: rgba(255, 0, 0, 0.555);
+      border: none;
+      color: white;
+      font-size: 15px;
+      border-radius: 5px;
+      width: 25%;
+      height: 30px;
     }
     p {
       margin: 0px;
       margin-left: 20px;
       width: 70%;
       font-size: 15px;
-      
     }
   }
 }
 .input-toDo,
-.input-elem{
-    max-width: 250px;
-    font-size: 20px;
-    border: none;
-    border-bottom: 2px solid #000;
-    background-color: rgba(0, 0, 255, 0.13);
-    margin: 0 auto;
-    border-radius: 5px;
-    outline:none;
-    margin-bottom: 10px;
-
+.input-elem {
+  max-width: 250px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid #000;
+  background-color: rgba(0, 0, 255, 0.13);
+  margin: 0 auto;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
 }
-.buttonAdd{
-    margin: 0 auto;
-    margin-top: 10px;
-    border: none;
-    font-size: 20px;
-    background-color:rgb(223 104 142);;
-    color: white;
-    padding: 6px;
-    border-radius: 10px;
+.buttonAdd {
+  margin: 0 auto;
+  margin-top: 10px;
+  border: none;
+  font-size: 20px;
+  background-color: rgb(223 104 142);
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
 }
 
-.title-flex{
+.title-flex {
   display: flex;
-  justify-content:end;
+  justify-content: end;
   margin-bottom: 20px;
   align-items: center;
-  .summ{
+  .summ {
     margin-left: 10px;
     background-color: #908fd5;
     padding: 5px;
     border-radius: 3px;
   }
 }
-.gr{
+.gr {
   color: green;
-  
 }
