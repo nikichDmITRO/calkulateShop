@@ -51,7 +51,7 @@ button.addEventListener("click", () => {
       .join("");
   }
   else if (input.value<=0){
-    alert("Сумма товара не может быть отрицательной или ровняться нулю")
+    alert("Цена товара не может быть отрицательной или ровняться нулю")
 }
   sum(obj);
   inputElem.value = "";
