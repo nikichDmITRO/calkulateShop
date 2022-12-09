@@ -32,7 +32,8 @@ data.innerHTML = obj
   )
   .join("");
 button.addEventListener("click", () => {
-  if (input.value&&inputElem.value) {
+  if (input.value&&inputElem.value&&input.value>0) {
+    
     objItem = {
       elem: inputElem.value,
       cost: input.value,
@@ -49,6 +50,9 @@ button.addEventListener("click", () => {
       )
       .join("");
   }
+  else if (input.value<=0){
+    alert("Сумма товара не может быть отрицательной или ровняться нулю")
+}
   sum(obj);
   inputElem.value = "";
   input.value = "";
